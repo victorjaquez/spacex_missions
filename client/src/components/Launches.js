@@ -19,7 +19,7 @@ export default class Launcher extends Component {
   render() {
     return (
       <Fragment>
-        <h1 className="display-4 my-3">Launches</h1>
+        <h2 className="my-3">Launches</h2>
         <MissionKey />
         <Query query={LAUNCHES_QUERY}>
           {({ loading, error, data }) => {

@@ -26,7 +26,10 @@ export default function LaunchData({
           </p>
         </div>
         <div className="col-md-3">
-          <Link to={`/launch/${flight_number}`} className="btn btn-secondary">
+          <Link
+            to={`/launch/${flight_number}`}
+            className="btn btn-secondary btn-sm"
+          >
             Launch Details
           </Link>
         </div>
