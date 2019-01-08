@@ -6,7 +6,7 @@ const app = express();
 
 // endpoint
 app.use(
-  "graphql",
+  "/graphql",
   graphqlHTTP({
     schema: schema,
     graphiql: true
