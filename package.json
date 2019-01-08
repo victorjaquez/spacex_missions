@@ -1,0 +1,29 @@
+{
+  "name": "spacex_missions",
+  "version": "1.0.0",
+  "description": "SpaceX launch mission data ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorjaquez/spacex_missions.git"
+  },
+  "author": "Victor Jaquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorjaquez/spacex_missions/issues"
+  },
+  "homepage": "https://github.com/victorjaquez/spacex_missions#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
