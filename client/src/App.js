@@ -24,6 +24,7 @@ class App extends Component {
                 width: 300,
                 display: "block",
                 margin: "auto",
+                marginRight: "0px",
                 paddingBottom: "20px"
               }}
             />
