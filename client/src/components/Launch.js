@@ -42,7 +42,7 @@ export default class Launch extends Component {
 
             return (
               <div>
-                <h2>Mission: {mission_name}</h2>
+                <h2>{mission_name}</h2>
                 <h4 className="mb-3">Launch Details</h4>
                 <ul className="list-group">
                   <li className="list-group-item">
